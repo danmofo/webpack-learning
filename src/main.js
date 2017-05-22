@@ -1,9 +1,6 @@
 import notify from './Notification';
 import lib from './Library'
 
-require('./main.css')
-require('./main.scss')
-
 notify("Hello world!");
 lib.anotherFn()
 lib.randomFn()

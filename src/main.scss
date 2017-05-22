@@ -2,4 +2,10 @@ $primary: #CCCCCC;
 
 * {
 	background-color: $primary;
+	border: none;
+	color: red;
+}
+
+* * {
+	background: red;
 }

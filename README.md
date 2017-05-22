@@ -33,4 +33,5 @@
 - Babel allows you to use newer ECMAScript features without needing browser support (e.g using the new `class` syntax), it transpiles your modern JavaScript into JavaScript that is understood
 by all browsers.
 - Environment variables aren't set as easily on Windows :), export using `export KEY=value` in Git Bash before running `npm run build`.
-
+- The `entry` property on the configuration object allows you to set values for dynamic variables, e.g. a property of `app` would compile your assets to `app.css` and `app.js` if you
+set their name to `[name].(css|js)`. There are many more variables, such as `[hash]`.
