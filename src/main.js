@@ -15,4 +15,6 @@ class Form {
 	}
 }
 
+let i = 222;
+
 new Form();

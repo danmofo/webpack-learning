@@ -1,11 +1,19 @@
 $primary: #CCCCCC;
 
 * {
-	background-color: $primary;
+	background-color: green;
 	border: none;
 	color: red;
 }
 
 * * {
 	background: red;
+	background-image: url('images/foo.png');
+	background-image: url('images/favicon-196x196.png');
+	background-image: url('images/kalen-emsley-98265.jpg');
+}
+
+.useless-class {
+	color: red;
+	bottom: auto;
 }
